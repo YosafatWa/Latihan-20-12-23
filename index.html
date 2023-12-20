@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+<body>
+    <script>
+        let gula = 30000;
+        let tepung = 50000;
+        let beras = 20000;
+
+        let hasil = gula + tepung + beras;
+        
+        if (hasil >= 100000) {
+            hsl = hasil * 0.9;
+        } else if (hasil < 100000){
+            hsl = "blom dpt diskon";
+        }
+
+        console.log(`total belajaan kamu adalah ${hasil}`)
+        console.log(hsl)
+
+        let waktu = 5;
+
+        if(waktu < 7){
+            hsl = "kamu akan mendapatkan gaji 100000"
+        } else if( waktu == 7){
+            hsl ="kamu akan mendapatkan gaji 200000"
+        } else if(waktu > 7){
+            hsl = "kamu akan mendapatkan gaji sebesar 300000"
+        }
+        console.log(hsl)
+
+        //
+
+        let air = 400;
+
+        if(air < 500){
+            hsl2 = "aman"
+        }else if(air < 650){
+            hsl2 = "waspada"
+        }else if(air > 650){
+            hsl2 = "siaga 1"
+        }
+        console.log(hsl2)
+
+        //
+
+        let ekonomi = 50;
+        let eksekutif = 50;
+        let vip = 10;
+
+        if (vip >= 35) {
+            keuntungan = vip * 0.25;
+        } else if (vip >= 20 && vip <= 35) {
+            keuntungan = vip * 0.15;
+        } else if (vip < 20) {
+            keuntungan = vip * 0.05;
+        } else if (eksekutif >= 40) {
+            keuntungan = eksekutif * 0.20;
+        } else if (eksekutif >=20 && eksekutif <= 40) {
+            keuntungan = eksekutif * 0.10;
+        } else if (eksekutif < 20) {
+            keuntungan = eksekutif* 0.02;
+        } else if (ekonomi) {
+            keuntungan = ekonomi * 0.07
+        }
+
+        console.log(keuntungan)
+
+    </script>
+</body>
+</html>
